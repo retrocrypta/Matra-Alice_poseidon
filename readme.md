@@ -7,8 +7,19 @@ Pon el .rbf en la SD de la Poseidon y eso es todo.
 # Changelog from Calypso
 -Portado de Calypso by Teiram. Version 0.1. Initial release
 
-
 # Poseidon
+Quick port by retrocrypta
+
+# AVISO DE LICENCIA
+
+## Incompatibilidad de los core FPGA de Xilinx/Altera con la GPL3
+
+Lamento informar que **ningún core FPGA que incorpore propiedad intelectual (IP) de Xilinx o Altera puede licenciarse bajo la GPL3**. Esto se debe a incompatibilidades fundamentales entre los términos de licencia de estas IP y los requisitos de la Licencia Pública General GNU versión 3 (GPL3)
+
+## ATENCIÓN! El Gran Bulo en MiST, MiSTer y derivadas
+
+¡Vaya, vaya, vaya! Y aquí viene la parte divertida : **prácticamente todos los core para MiST, MiSTer y derivados que se etiquetan alegremente como "GPL3" violan flagrantemente esta licencia** 😅
+
 Sí, has leído bien. Por mucho que sus autores insistan con gran convicción y coloquen con orgullo el sello "GPL3" en sus repositorios, cometen lo que podríamos llamar educadamente un... "error conceptual masivo".
 
 ¿ Por qué ? Es simple: estos core usan propiedad intelectual de Altera/Intel (tanto en el caso de MiSTer como de MiST) o de Xilinx), que vienen con sus propias licencias restrictivas. Es como intentar mezclar agua y aceite y luego insistir en que has creado agua pura. No funciona así, por mucho que uno desee que fuera cierto.
