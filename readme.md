@@ -8,47 +8,6 @@ Pon el .rbf en la SD de la Poseidon y eso es todo.
 -Portado de Calypso by Teiram. Version 0.1. Initial release
 
 
- 35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
 # Poseidon
 Sí, has leído bien. Por mucho que sus autores insistan con gran convicción y coloquen con orgullo el sello "GPL3" en sus repositorios, cometen lo que podríamos llamar educadamente un... "error conceptual masivo".
 
