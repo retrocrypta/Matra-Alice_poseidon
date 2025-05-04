@@ -349,7 +349,7 @@ mc10 mc10(
 
     .audio(alice_audio),
 
-    .cin(status[15] ? TAPE_SOUND : (tape_status != 0 ? k7_dout : 1'b0))
+    .cin(status[15] ? ~TAPE_SOUND : (tape_status != 0 ? k7_dout : 1'b0))
 );
 
 
